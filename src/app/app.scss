@@ -14,3 +14,20 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.text-center{
+  text-align: center;
+}
+.tachado{
+  text-decoration: line-through;
+}
+
+.caja-vacia{
+  color: #C7C7C7;
+  padding-top: 40%;
+}
+.icono-grande{
+  font-size: 100px;
+}
+.icono-mediano{
+  font-size: 50px;
+}
