@@ -1,4 +1,4 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe } from '@angular/core';
 import { Lista} from '../clases/listas';
 
 
@@ -6,7 +6,7 @@ import { Lista} from '../clases/listas';
   name: 'pendientes',
   pure: false
 })
-export class PendientesPipe implements PipeTransform {
+export class PendientesPipe {
   transform(listas:Lista[], estado: boolean = false): Lista[] {
 
     let nuevaLista:Lista[] =[];

@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController , NavParams , AlertController} from 'ionic-angular';
-import {Lista,ListaItem} from '../../app/clases/index';
+import {ListaItem} from '../../app/clases/index';
 import {ListaDeseosService} from '../../app/services/lista-deseos.service';
 
 @Component({
   selector: 'selector',
   templateUrl: 'detalle.component.html',
 })
-export class DetalleComponent implements OnInit {
+export class DetalleComponent {
 
   indice:number;
   lista:any;

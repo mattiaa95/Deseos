@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Lista, ListaItem } from '../../app/clases/index';
 import {AlertController, NavController} from 'ionic-angular';
 
@@ -8,7 +8,7 @@ import {ListaDeseosService} from '../../app/services/lista-deseos.service';
   selector: 'app-agregar',
   templateUrl: 'agregar.component.html',
 })
-export class AgregarComponent implements OnInit {
+export class AgregarComponent {
 
   nombreLista:string;
   nombreItem:string = "";

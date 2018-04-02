@@ -1,9 +1,9 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe } from '@angular/core';
 
 @Pipe({
   name: 'placeholder'
 })
-export class placeHolderPipe implements PipeTransform {
+export class placeHolderPipe {
   transform(value: string, defecto: string): string {
     return ( value )? value: defecto;
   }
